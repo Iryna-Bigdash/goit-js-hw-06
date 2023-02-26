@@ -7,6 +7,7 @@ const ingredients = [
   'Condiments',
 ];
 const listEl = document.querySelector('#ingredients');
+let itemArray = [];
 
 for (let i = 0; i < ingredients.length; i++){
   const itemEl = document.createElement('li');

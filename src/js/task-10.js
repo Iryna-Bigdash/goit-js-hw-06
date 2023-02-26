@@ -32,7 +32,7 @@ function destroyBoxes() {
 
 refs.btnDestroy.addEventListener("click", onBtnDestroy);
 function onBtnDestroy() {
-  refs.boxEl.remove();
+  refs.boxEl.innerHTML = "";
   refs.inputEl.value = "null";
 }
 
