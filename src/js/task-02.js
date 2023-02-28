@@ -13,5 +13,6 @@ const itemEls = ingredients.map((ingredient) => {
   itemEl.classList.add("item");
   itemEl.textContent = ingredient;
 
-  return listEl.append(itemEl);
+  return itemEl;
 });
+listEl.append(...itemEls);
